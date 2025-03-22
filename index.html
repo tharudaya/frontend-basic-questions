@@ -8,19 +8,16 @@
     <script src="/scripts/arrow.js"></script>
   </head>
   <body>
-    <h1>Welcome to SL Frontend Developer</h1>
-    <h2>Arrow Functions</h2>
-    <ul>
-      <li>function</li>
-      <li>function statement/declaration</li>
-      <li>function expresion</li>
-      <li>anonymous functions</li>
-      <li>arrow functions</li>
-      <ul>
-        <li>syntax</li>
-        <li>hoisting</li>
-        <li>this keyword</li>
-      </ul>
-    </ul>
+    <h1>SL Frontend Developer</h1>
+    <h2>count is: <span id="count">0</span></h2>
+    <button onclick="increaseCount()">click</button>
   </body>
+
+  <script>
+    let count = 0;
+    function increaseCount() {
+      count += 1;
+      document.getElementById("count").textContent = count;
+    }
+  </script>
 </html>
