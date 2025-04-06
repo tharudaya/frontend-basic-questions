@@ -8,16 +8,22 @@
     <script src="/scripts/arrow.js"></script>
   </head>
   <body>
-    <h1>SL Frontend Developer</h1>
-    <h2>count is: <span id="count">0</span></h2>
-    <button onclick="increaseCount()">click</button>
+    <h1>Welcome to SL Frontend Developer</h1>
+    <iframe
+      src="https://en.wikipedia.org/wiki/HTML"
+      title="HTML Wikipedia Page"
+      width="400"
+      height="300"
+      loading="lazy"
+      sandbox="allow-same-origin allow-scripts allow-popups"
+    ></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/EfZTmyQ0iSc"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </body>
-
-  <script>
-    let count = 0;
-    function increaseCount() {
-      count += 1;
-      document.getElementById("count").textContent = count;
-    }
-  </script>
 </html>
